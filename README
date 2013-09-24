@@ -1,0 +1,14 @@
+Simple gallery generator
+
+Written in python using jinja2 for templating and pil for thumbnail generation
+
+Usage : put images and everything in the same folder, launch the script
+
+This will generate a 512x512px thumbnail for each jpg file, then a index.html 
+with all thumbnails and links to the full size image
+
+Uses a (sort of) responsive design.
+
+Written in half an hour as a proof-of-concept.
+
+No warranty at all, read the source.

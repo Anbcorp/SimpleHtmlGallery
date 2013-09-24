@@ -40,7 +40,6 @@ env = Environment(loader=FileSystemLoader('.'))
 
 template = env.get_template('template.html')
 
-
 out = open('index.html', 'w')
 out.write(template.render(images=images))
 out.close()
