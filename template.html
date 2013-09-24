@@ -1,0 +1,16 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+<div class="container">
+{% for img in images %}
+    <div class="galleryItem">
+        <a href="#"><img src="{{ img }}"></a>
+    </div>
+{%endfor%}
+</div>
+
+</body>
+</html>
