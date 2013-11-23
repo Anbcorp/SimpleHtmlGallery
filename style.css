@@ -21,21 +21,21 @@
 }
 
 @media only screen and (max-width: 940px),
-only screen and (max-device-witdh: 940px) {
+only screen and (max-device-width: 940px) {
     .galleryItem {width: 21%;}
 }
 
 @media only screen and (max-width: 720px),
-only screen and (max-device-witdh: 720px) {
+only screen and (max-device-width: 720px) {
     .galleryItem {width: 29.33%;}
 }
 
 @media only screen and (max-width: 530px),
-only screen and (max-device-witdh: 530px) {
+only screen and (max-device-width: 530px) {
     .galleryItem {width: 46%;}
 }
 
 @media only screen and (max-width: 320px),
-only screen and (max-device-witdh: 320px) {
+only screen and (max-device-width: 320px) {
     .galleryItem {width: 96%;}
 }
